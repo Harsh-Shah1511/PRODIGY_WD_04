@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("bk1.png");
+}
+
+header {
+    background-color:rgb(19, 12, 2);
+    color: #000000;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+ul{
+  color: aliceblue;
+}
+
+main {
+    text-align: left;
+    padding: 20px;
+}
+
+footer {
+    background-color:rgb(14, 13, 13);
+    color:white;
+    text-align: center;
+    padding: 3px 0;
+    position:relative;
+    width: 100%;
+    padding-bottom: 0.5%;
+}
+h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 4000;
+  text-align: left;
+  font-style: italic;
+  
+}
+.center {
+    display: block;
+    margin-right:6%;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-bottom:10%;
+    border-radius: 50%;
+    position:static;
+  }
+.yes{
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .abu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   image {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+   .cont {
+     font-size: 35px;
+     
+   }
+   .dot{
+    height: 323px;
+    width: 323px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right:10% ;
+   }
+
+   p{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+   }
+   
